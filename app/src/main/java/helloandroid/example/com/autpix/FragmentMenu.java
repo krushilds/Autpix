@@ -13,7 +13,7 @@ import android.widget.Button;
 
 public class FragmentMenu extends Fragment implements View.OnClickListener {
 
-    Button activity1, activity2, activity3, activity4, activity5, activity6;
+    Button activity1, activity2, activity3, activity4, activity5, activity6, activity7, activity8, activity9;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -38,6 +38,15 @@ public class FragmentMenu extends Fragment implements View.OnClickListener {
 
         activity6 = (Button) view.findViewById(R.id.button10);
         activity6.setOnClickListener(this);
+
+        activity7 = (Button) view.findViewById(R.id.button12);
+        activity7.setOnClickListener(this);
+
+        activity8 = (Button) view.findViewById(R.id.button13);
+        activity8.setOnClickListener(this);
+
+        activity9 = (Button) view.findViewById(R.id.button14);
+        activity9.setOnClickListener(this);
 
         return view;
 
@@ -111,15 +120,41 @@ public class FragmentMenu extends Fragment implements View.OnClickListener {
                 ft6.replace(R.id.fragment_container, fragmentPlayGround);
                 ft6.commit();
                 break;
+
+            case R.id.button12:
+                FragmentManager fm7 = getFragmentManager();
+                FragmentTransaction ft7 = fm7.beginTransaction();
+
+                FragmentGrammer fragmentGrammer = new FragmentGrammer();
+
+                ft7.replace(R.id.fragment_container, fragmentGrammer);
+                ft7.commit();
+                break;
+
+
+            case R.id.button13:
+                FragmentManager fm8 = getFragmentManager();
+                FragmentTransaction ft8 = fm8.beginTransaction();
+
+                FragmentPlayGame fragmentPlayGame = new FragmentPlayGame();
+
+                ft8.replace(R.id.fragment_container, fragmentPlayGame);
+                ft8.commit();
+                break;
+
+            case R.id.button14:
+                FragmentManager fm9 = getFragmentManager();
+                FragmentTransaction ft9 = fm9.beginTransaction();
+
+                FragmentCarerLogin fragmentCarerLogin = new FragmentCarerLogin();
+
+                ft9.replace(R.id.fragment_container, fragmentCarerLogin);
+                ft9.commit();
+                break;
+
         }
 
-
-
-
-
-
     }
-
 
 
 
@@ -129,6 +164,5 @@ public class FragmentMenu extends Fragment implements View.OnClickListener {
         super.onDetach();
 
     }
-
 
 }
