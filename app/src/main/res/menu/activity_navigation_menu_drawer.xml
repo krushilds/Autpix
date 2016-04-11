@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutme"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ME / Family" />
+        <item
+            android:id="@+id/morning"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="MORNING" />
+        <item
+            android:id="@+id/afternoon"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="AFTERNOON" />
+        <item
+            android:id="@+id/evening"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="EVENING" />
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="HOME" />
+        <item
+            android:id="@+id/playground"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="PLAYGROUND" />
+        <item
+            android:id="@+id/grammer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="GRAMMER" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/playgame"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Play Game" />
+            <item
+                android:id="@+id/carerlogin"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Carer Login" />
+        </menu>
+    </item>
+
+</menu>
