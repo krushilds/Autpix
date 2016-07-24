@@ -10,16 +10,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete"
+        android:onClick="deleteWord"
         android:id="@+id/button15"
         android:layout_gravity="center_horizontal|top"
         android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/button16" />
+        android:layout_toStartOf="@+id/speak" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Speak"
-        android:id="@+id/button16"
+        android:id="@+id/speak"
         android:layout_gravity="right|top"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
@@ -30,7 +31,7 @@
         android:text="&lt;"
         android:id="@+id/button17"
         android:layout_below="@+id/button15"
-        android:layout_toStartOf="@+id/button16" />
+        android:layout_alignStart="@+id/button15" />
 
     <Button
         android:layout_width="wrap_content"
@@ -38,7 +39,7 @@
         android:text=">"
         android:id="@+id/button18"
         android:layout_below="@+id/button15"
-        android:layout_toEndOf="@+id/button17" />
+        android:layout_toEndOf="@+id/button15" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,9 +68,19 @@
             android:numColumns="auto_fit"
             android:horizontalSpacing="10dp"
             android:verticalSpacing="10dp"
-            android:columnWidth="110dp"
-            android:stretchMode="spacingWidthUniform"
-            android:background="#eef9ff" />
+            android:columnWidth="100dp"
+            android:stretchMode="spacingWidthUniform" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridView2"
+            android:numColumns="auto_fit"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:columnWidth="100dp"
+            android:stretchMode="spacingWidthUniform"/>
+
     </ViewFlipper>
 
 

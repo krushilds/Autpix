@@ -19,12 +19,22 @@
         </activity>
         <activity
             android:name=".HomeScreen"
-            android:screenOrientation="portrait"
             android:label="@string/homescreenlbl"
-            />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".navigationMenu"
             android:label="@string/title_activity_navigation_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PlayQuiz" />
+        <activity android:name=".KidsSignup" />
+        <activity
+            android:name=".AddNewQuiz"
+            android:label="@string/title_activity_add_new_quiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PCSignup" />
+        <activity
+            android:name=".EditQuestActivity"
+            android:label="@string/title_activity_edit_quest"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

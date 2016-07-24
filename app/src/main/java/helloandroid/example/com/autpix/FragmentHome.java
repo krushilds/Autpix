@@ -7,9 +7,10 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 
 
-public class FragmentHome extends Fragment {
+public class FragmentHome extends Fragment implements AdapterView.OnItemClickListener {
 
 
     @Override
@@ -29,4 +30,8 @@ public class FragmentHome extends Fragment {
 
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+    }
 }

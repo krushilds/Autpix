@@ -6,6 +6,126 @@
     <string name="copyright">AutPix© 2016 by Krushil bhavsar</string>
     <!--_______________________________-->
 
+    <string-array name="aboutme_names">
+
+        <item>hi</item>
+        <item>my name is</item>
+        <item>i want</item>
+        <item>to see</item>
+        <item>family</item>
+        <item>yes</item>
+        <item>no</item>
+        <item>thank you</item>
+        <item>i dont know</item>
+        <item>i need help</item>
+        <item>i am good</item>
+        <item>to hear</item>
+        <item>i live in england</item>
+
+    </string-array>
+
+    <string-array name="family_names">
+
+        <item>dad</item>
+        <item>mum</item>
+        <item>sister</item>
+        <item>brother</item>
+        <item>niece</item>
+        <item>nephew</item>
+        <item>uncle</item>
+        <item>aunt</item>
+        <item>grandfather</item>
+        <item>grandmother</item>
+        <item>son</item>
+
+    </string-array>
+
+    <string-array name="morning_names">
+
+        <item>i want</item>
+        <item>to drink</item>
+        <item>cake</item>
+        <item>chocolate</item>
+        <item>banana</item>
+        <item>cookies</item>
+        <item>cereal</item>
+        <item>eggs</item>
+        <item>grapes</item>
+        <item>bread</item>
+
+    </string-array>
+
+    <string-array name="morningdrink_names">
+
+        <item>tea</item>
+        <item>Hot chocolate</item>
+        <item>lemonade</item>
+        <item>apple juice</item>
+        <item>coffee</item>
+        <item>orange juice</item>
+        <item>milk</item>
+        <item>water</item>
+        <item>squash</item>
+
+    </string-array>
+
+    <string-array name="afternoon_names">
+
+        <item>i want</item>
+        <item>to clean room</item>
+        <item>to go out</item>
+        <item>to go to park</item>
+        <item>to have lunch</item>
+        <item>a nap</item>
+        <item>to read book</item>
+        <item>to sit</item>
+
+    </string-array>
+
+    <string-array name="evening_names">
+
+        <item>i want</item>
+        <item>to watch tv</item>
+        <item>to change channel</item>
+        <item>to use computer</item>
+        <item>to play football</item>
+        <item>go out</item>
+        <item>sleep</item>
+        <item>to read story</item>
+        <item>to wash face</item>
+
+    </string-array>
+
+    <string-array name="playground_names">
+
+        <item>i want</item>
+        <item>to user computer</item>
+        <item>to draw</item>
+        <item>to fill colour</item>
+        <item>to paint</item>
+        <item>to jump ropes</item>
+        <item>to eat</item>
+        <item>to play puzzle game</item>
+        <item>to read book</item>
+        <item>queue up</item>
+
+    </string-array>
+
+    <string-array name="feelings_names">
+
+        <item>i am</item>
+        <item>afraid</item>
+        <item>bored</item>
+        <item>cold</item>
+        <item>confused</item>
+        <item>happy</item>
+        <item>hungry</item>
+        <item>thirsty</item>
+        <item>tired</item>
+        <item>worried</item>
+
+    </string-array>
+
 
     <string name="title_activity_navigation_menu">navigationMenu</string>
 
@@ -34,5 +154,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_new_quiz">AddNewQuiz</string>
+    <string name="title_activity_edit_quest">EditQuestActivity</string>
 
 </resources>

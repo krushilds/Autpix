@@ -1,5 +1,7 @@
 package helloandroid.example.com.autpix;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -26,4 +28,5 @@ public class HomeScreen extends AppCompatActivity {
         Intent intent = new Intent(HomeScreen.this, navigationMenu.class);
         startActivity(intent);
     }
+
 }

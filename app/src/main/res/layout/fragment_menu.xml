@@ -7,75 +7,91 @@
     <!-- TODO: Update blank fragment layout -->
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Me/Family"
         android:id="@+id/button5"
         android:layout_marginTop="37dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#1dbfe3"
+        android:layout_marginBottom="8dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Morning"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#1dbfe3"
+        android:layout_marginBottom="8dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Afternoon"
         android:id="@+id/button7"
         android:layout_below="@+id/button6"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#1dbfe3"
+        android:layout_marginBottom="8dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Evening"
         android:id="@+id/button8"
         android:layout_below="@+id/button7"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#1dbfe3"
+        android:layout_marginBottom="8dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Home"
         android:id="@+id/button9"
         android:layout_below="@+id/button8"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#1dbfe3"
+        android:layout_marginBottom="8dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Playground"
         android:id="@+id/button10"
         android:layout_below="@+id/button9"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#1dbfe3"
+        android:layout_marginBottom="8dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="Grammer"
+        android:text="Feelings"
         android:id="@+id/button12"
         android:layout_below="@+id/button10"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#1dbfe3"
+        android:layout_marginBottom="8dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Play Game"
         android:id="@+id/button13"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#1dbfe3" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Carer Login"
         android:id="@+id/button14"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="#1dbfe3" />
 </RelativeLayout>
